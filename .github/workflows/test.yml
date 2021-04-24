@@ -8,7 +8,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        ruby: [ 2.5, 2.6, 2.7, jruby ]
+        ruby: [ 2.5, 2.6, 2.7, jruby, truffleruby-head ]
         gemfile: [ gemfiles/rails-6-0.gemfile ]
         experimental: [ false ]
         include:
